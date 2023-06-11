@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enviar Documento Académico</title>
+    <link rel="stylesheet" type="text/css" href="receptar.css">
+    <script src="enviar_documento.js"></script>
+</head>
+<body>
+    <header>
+        <a href="desarrollo.html">
+            <img src="descarga1.jpg" alt="Logo de la universidad" id="logo">
+        </a>
+    </header>
+
+    <h1>Enviar Documento Académico</h1>
+
+    <div class="info-container">
+        <h2>Información adicional</h2>
+        <p>Puedes enviar documentos en diferentes formatos, como PDF, Word, Excel, etc. Asegúrate de seleccionar el archivo correcto antes de hacer clic en el botón "Enviar Documento". Una vez enviado, el documento será procesado y recibirás una notificación.</p>
+    </div>
+
+    <div class="contact-container">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna pregunta o necesitas ayuda, puedes comunicarte con nuestro equipo de soporte al siguiente correo </p>
+        <p>Email: jostinbalon53@gmail.com</p>
+    </div>
+
+    <form id="formulario" method="post" enctype="multipart/form-data">
+        <label for="archivo">Selecciona un archivo:</label>
+        <input type="file" id="archivo" name="archivo">
+        <input type="button" value="Enviar Documento" id="btn-enviar" onclick="enviarDocumento()">
+    </form>
+
+    <div id="mensaje"></div>
+
+    <script src="datos.json"></script>
+   
+</body>
+</html>

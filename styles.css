@@ -1,0 +1,125 @@
+/* Estilos generales */
+body {
+    background-image:url(descarga3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    background-color: blue;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para la lista de eventos */
+#eventos-container {
+    margin-top: 20px;
+}
+
+#eventos-lista {
+    padding: 0;
+}
+
+.evento {
+    background-color: cornsilk;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.evento strong {
+    font-size: 18px;
+}
+
+.evento .fecha {
+    font-size: 14px;
+    color: #888;
+}
+
+.evento .lugar {
+    font-size: 14px;
+    color: #555;
+}
+
+.evento .descripcion {
+    margin-top: 5px;
+}
+
+/* Estilos para el botón Agregar Evento */
+#agregar-evento {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Estilos para el modal de agregar evento */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#evento-form label,
+#evento-form input,
+#evento-form textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#evento-form input[type="submit"] {
+    width: auto;
+    margin-top: 10px;
+}
+
+/* Estilos para el cuadro del formulario en el modal */
+.modal-content label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.modal-content input,
+.modal-content textarea {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.modal-content textarea {
+    height: 100px;
+}
+      

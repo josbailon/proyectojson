@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eventos Académicos</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="desarrollo.html">
+            <img src="descarga1.jpg" alt="Logo de la universidad" id="logo">
+        </a>
+    </header>
+    <h1>Eventos Académicos</h1>
+    <div id="eventos-container">
+        <h2>Lista de Eventos</h2>
+        <div id="eventos-lista"></div>
+    </div>
+    <button id="agregar-evento">Agregar Evento</button>
+
+    <div id="agregar-evento-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Agregar Evento</h2>
+            <form id="evento-form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" required>
+                <label for="lugar">Lugar:</label>
+                <input type="text" id="lugar" required>
+                <label for="descripcion">Descripción:</label>
+                <textarea id="descripcion" rows="4" required></textarea>
+                <input type="submit" value="Guardar">
+            </form>
+        </div>
+    </div>
+
+    <script src="events.js"></script>
+</body>
+</html>

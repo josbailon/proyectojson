@@ -1,0 +1,65 @@
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  /* Estilos de la barra de navegación */
+  header {
+    background-color: #0e2859;
+    padding: 10px;
+    
+  }
+  
+  #logo {
+    max-width: 150px;
+  }
+  
+  /* Estilos de los contenedores de información */
+  .info-container, .contact-container {
+    background-color: wheat;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos del formulario */
+  #formulario {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  #btn-enviar {
+    background-color: #0e2859;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #btn-enviar:hover {
+    background-color: #0e2859;
+  }
+  
+  /* Estilos del contenedor de datos */
+  #datos-container {
+    background-color: green;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  

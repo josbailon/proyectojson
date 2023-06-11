@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" type="image/png" href="descarga1.jpg">
+    <link rel="stylesheet" type="text/css" href="desarollo.css" />
+    <title>Gestión de Documentos - Vicerrectorado</title>
+    
+</head>
+
+
+<body>
+<nav>
+<a href="clasificacion.html">clasificacion</a>    
+<a href="receptar.html">receptar</a>    
+<a href="eventos.html">eventos</a>
+        
+     
+    </nav>
+    <header><div>
+  <img src="descarga1.jpg" >
+  <h1>Gestión de Documentos - Vicerrectorado Uleam</h1>
+</div>
+    </header>
+
+    <main>
+        <form id="subir-documento-form">
+            <label for="documento">Nombre del documento:</label>
+            <input type="text" id="documento" name="documento" required>
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" name="descripcion"></textarea>
+            <button type="submit">Subir documento</button>
+        </form>
+
+        <table id="documentos">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Descripción</th>
+                    <th>Fecha de subida</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <button id="btn-actualizar">Actualizar</button> 
+    
+    </main>
+
+    <footer>
+        <p>&copy; 2023 - Uleam</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

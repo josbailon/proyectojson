@@ -1,0 +1,23 @@
+{
+    "eventos": [
+      {
+        "nombre": "Conferencia de Ciencias",
+        "fecha": "2023-07-15",
+        "lugar": "Uleam",
+        "descripcion": "Ven y disfruta de una conferencia fascinante sobre los últimos avances científicos."
+      },
+      {
+        "nombre": "Seminario de Matemáticas",
+        "fecha": "2023-08-05",
+        "lugar": " Aula Magna",
+        "descripcion": "Explora el fascinante mundo de las matemáticas en nuestro seminario interactivo."
+      },
+      {
+        "nombre": "Taller de Programación",
+        "fecha": "2023-09-10",
+        "lugar": "Facultad de Ciencias Informaticas",
+        "descripcion": "Aprende a programar desde cero y desarrolla tus habilidades en este taller intensivo."
+      }
+    ]
+  }
+  

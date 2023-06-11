@@ -1,0 +1,17 @@
+{
+    "documentos": [
+        {
+            "nombre": "ingreso de estudiante",
+            "categoria": "Documentos de ingreso"
+        },
+        {
+            "nombre": "certificados emitido por la universidad",
+            "categoria": "Certificados"
+        },
+        {
+            "nombre": "informe de las actividades",
+            "categoria": "Informes"
+        }
+       
+    ]
+}
